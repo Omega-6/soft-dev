@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel Data in Flask</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Time To Crops Data</h1>
+        <!-- Render the table -->
+        {{ timeToCropsTable|safe }}
+
+	<h1>Water To Crops Data</h1>
+        <!-- Render the table -->
+        {{ waterToCropsTable|safe }}
+	
+	<h1>Carbon Footprint Reduction Data</h1>
+        <!-- Render the table -->
+        {{ carbonFootprintReductionTable|safe }}
+
+	<h1>Composting Data</h1>
+        <!-- Render the table -->
+        {{ compostingTable|safe }}
+	
+	<h1>Cover Crops Data</h1>
+        <!-- Render the table -->
+        {{ coverCropsTable|safe }}
+
+	<h1>Crop Rotation Cycle Data</h1>
+        <!-- Render the table -->
+        {{ cropRotationCycleTable|safe }}
+
+	<h1>Mulching Data</h1>
+        <!-- Render the table -->
+        {{ mulchingTable|safe }}
+
+	<h1>Nutrients To Crops Data</h1>
+        <!-- Render the table -->
+        {{ nutrientsToCropsTable|safe }}
+
+	<h1>Pest and Disease Prevention Data</h1>
+        <!-- Render the table -->
+        {{ pestAndDiseasePreventionTable|safe }}
+
+	<h1>pH To Crops Data</h1>
+        <!-- Render the table -->
+        {{ phToCropsTable|safe }}
+
+	<h1>Soil Amendments Data</h1>
+        <!-- Render the table -->
+        {{ soilAmendmentsTable|safe }}
+
+	<h1>Time to Sow and Harvest Data</h1>
+        <!-- Render the table -->
+        {{ timeToSowAndHarvestTable|safe }}
+
+	<h1>Weather To Crops Data</h1>
+        <!-- Render the table -->
+        {{ weatherToCropsTable|safe }}
+
+	<h1>Weather to Sow and Harvest Data</h1>
+        <!-- Render the table -->
+        {{ weatherToSowAndHarvestTable|safe }}
+
+    </div>
+</body>
+</html>
